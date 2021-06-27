@@ -1,0 +1,35 @@
+.navbar{
+    background: linear-gradient(90deg, #bccad6 0%, #8d9db6 38%, #667292 100%);
+
+}
+
+.bg-ocean{
+    background: #667292;
+}
+
+.text-ocean{
+    color:#667292;
+}
+.sidebar{
+    min-height: 90vh;
+}
+
+.sidebar a, .drop-a{
+    text-decoration: none;
+    transition:1s;
+
+}
+
+.sidebar a:hover, .drop-a:hover{
+    margin-left: 10px;
+    transition: 1s;
+}
+
+/*-------------Responsive-------------*/
+@media screen and (max-width: 625px)
+{
+    .sidebar{
+        min-height: auto;
+    }
+    
+}
